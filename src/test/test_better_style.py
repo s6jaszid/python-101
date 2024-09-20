@@ -9,6 +9,7 @@ def test_seperate_file_name_base_and_file_name_ending():
     assert base == "test", "name base not correct if no dot present"
     assert ending == "", "ending should be empty string if no dot present"
 
+
 def test_add_count_to_string():
     assert add_count_to_string("test") == "test-1"
     assert add_count_to_string("test-1") == "test-2"
