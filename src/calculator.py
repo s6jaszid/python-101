@@ -1,5 +1,5 @@
 def add(a, b):
-    raise NotImplementedError
+    return a + b
 
 def divide(a, b):
-    raise NotImplementedError
+    return a / b
